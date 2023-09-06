@@ -24,6 +24,7 @@ function  list_command() {
 	        How to VaryOn crypto card? \n 
 			\t ##vmcp vary <on|off> crypto ap <card no> \n 
 	        How to Attach Detach cryto card? \n
+                        First domain add need ap card in the command line. Once the card is added then no need of ap in vmcp attach command.
 			\t ##vmcp <attach|detach> crypto ap <card no> domain <domain> to \*
 			How to List the card from bastion? \n
 			\t lszcrypt -VVV \n 
